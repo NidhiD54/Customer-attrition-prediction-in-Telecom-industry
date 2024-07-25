@@ -99,7 +99,7 @@ I would like to express my sincere gratitude to the following who have contribut
 ## References
 Zhuang, S. (2022) Telecom Customer Churn Prediction. Available at: https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics (Accessed: 24 July 2024).
 
-
+## License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
