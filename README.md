@@ -24,16 +24,20 @@ Our analysis utilized a comprehensive dataset from Kaggle, containing historical
 ## Key Findings
 
 ### Descriptive Analysis
+![Descriptive analysis](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Descriptive%20analysis.png?raw=true)
 - Average customer age: 47 years
 - Mean tenure: 34 months
 - Average monthly download: 21 GB
 - Mean monthly charge: $68
 
 ### Visualisations
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Visualisations1.png?raw=true)
 - Pie Chart of customer status by gender
 - Histogram of tenure in months
 - Histogram of age (with normal curve)
 - Scatterplot of tenure in months vs total charges
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Visualisations2.png?raw=true)
 - Bar chart showing contract vs count of subscribers
 - Boxplot of total revenue
 - Boxplot of tenure in months
@@ -42,11 +46,37 @@ Our analysis utilized a comprehensive dataset from Kaggle, containing historical
 ### Clustering Analysis
 K-means clustering revealed distinct customer segments based on value metrics like tenure, charges, and revenue.
 
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Final%20Cluster%20Centers.png?raw=true)
+
+### Hierarchical Clustering:
+![Hierarchical Clustering](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Dendogram%20using%20Average%20Linkage.png?raw=true)
+
 ### Classification Analysis
 Decision tree and K-Nearest Neighbors models showed promise in predicting churn, with decision trees identifying key predictors like tenure, charges, and usage.
 
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Model%20Summary%20Decision%20Tree.png?raw=true)
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Classification.png?raw=true)
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Decision%20Tree-%20Training%20Sample.png?raw=true)
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Decision%20Tree-%20Test%20Sample.png?raw=true)
+
+### K-nearest neighbors (KNN) Analysis
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/KNN-%20Case%20Processing%20Summary.png?raw=true)
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Predictor%20Space.png?raw=true)
+
 ### Statistical Modeling
 Logistic regression highlighted the significant role of tenure and service type in decreasing churn odds. Each month of tenure corresponded to a 6.3% increase in retention odds.
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Logistic%20Regression%20Analysis.png?raw=true)
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Block%200%20-Beginning%20Block.png?raw=true)
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Block%201-%20Method%20=%20Enter.png?raw=true)
+
+![](https://github.com/NidhiD54/Customer-attrition-prediction-in-Telecom-industry/blob/main/images/Variables%20in%20the%20Equation.png?raw=true)
 
 ## Conclusions
 - Long-tenured customers and those with specific services (e.g., fiber internet) showed lower churn risk.
